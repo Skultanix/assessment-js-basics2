@@ -82,9 +82,22 @@ console.log(calcFinalPrice(summedPrice, 5, 0.6))
 
     Your object should have at least 4 properties. 
 */
-
+  const customer = {
+     name: '...',
+     age: 0,
+     hasVisitedB4: false,
+     entreeOrder: '...',
+     walkIn: false,
+ }
 /*
     TEXT ANSWER HERE
+
+    Most restaurants want a name of a customer to identify them by, particularly if they're the sort of place that needs reservations.
+    Age is needed so that the waiters can determine whether or not they should be offering anything alcoholic to the customer.
+    Whether or not a customer has visited before is mostly used for internal data and indicates if a given customer is a repeat customer and if the business offers good product and service.
+    When compiling data on customer behavior it is generally a good idea to determine what they ordered and how many customers ordered the same item, as well as have they ordered it before.
+        This lets the business know what's popular and keeps people coming and what doesn't (what they should drop from the menu).
+    Assuming that a restaurant takes walk-ins (think Chilis) determining whether or not a customer has booked a reservation or not help dictate priorities with table allocation.
 
 */
 
@@ -94,3 +107,10 @@ console.log(calcFinalPrice(summedPrice, 5, 0.6))
 */
 
 //CODE HERE
+customer.name = `Tyler`
+customer.age = 52
+customer.hasVisitedB4 = false
+customer.entreeOrder = `Spaghetti with White Clam Sauce`
+customer.walkIn = true
+
+console.log(customer)
