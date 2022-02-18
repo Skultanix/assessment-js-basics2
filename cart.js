@@ -57,7 +57,11 @@ console.log(summedPrice)
 
 //CODE HERE
 
+function calcFinalPrice(cartTotal, couponValue, tax) {
+    return Math.round(((cartTotal * (1 + tax) - couponValue) * 100)) /100
+}
 
+console.log(calcFinalPrice(summedPrice, 5, 0.6))
 
 //////////////////PROBLEM 3////////////////////
 /*  
