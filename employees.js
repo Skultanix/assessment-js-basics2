@@ -98,7 +98,18 @@ console.log(empTwo)
 
 //CODE HERE
 
-
+class Manager extends Employee{
+constructor(name, shifts, employees) {
+super(name,shifts)
+this.employees = employees
+}
+getEmployees() {
+    return console.log(`${this.name} manages ${this.employees}`)
+}
+addEmployees(emp) {
+    return this.employees.push(emp)
+}
+}
 
 /*
     Create a new instance of your class.
@@ -112,7 +123,7 @@ console.log(empTwo)
 */
 
 //CODE HERE
-
+let manager = new Manager(`Winston`,`weekday mornings, weekday afternoons`,[`Cece`, `Schmit`])
 
 /*
     Call the `getEmployees` method on the
@@ -120,6 +131,8 @@ console.log(empTwo)
 */
 
 //CODE HERE
+
+manager.getEmployees()
 
 /*
     Call the `addEmployee` method on the 
@@ -129,6 +142,8 @@ console.log(empTwo)
 
 //CODE HERE 
 
+manager.addEmployees(`Dugan`)
+
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
@@ -136,3 +151,5 @@ console.log(empTwo)
 */
 
 //CODE HERE
+
+manager.getEmployees()
