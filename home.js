@@ -124,7 +124,7 @@ const deals = [
 */
 
 //CODE HERE
-
+deals.replace('15% Off!','10% Off!')
 
 
 /*
@@ -141,3 +141,8 @@ const deals = [
 */
 
 //CODE HERE
+
+deals.replace(`March`, `April`)
+deals.trim()
+
+console.log(deals)
