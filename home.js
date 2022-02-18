@@ -22,10 +22,9 @@
 */
 
 //CODE HERE
+ const greetUser = (userName) => {console.log(`Welcome back, ${userName}`)}
 
-
-
-
+ greetUser(`Andrew`)
 
 //////////////////PROBLEM 2////////////////////
 /* 
