@@ -146,7 +146,7 @@ const foodArr = [
 
 ]
 
-//console.log(foodArr)
+console.log(foodArr)
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -162,7 +162,7 @@ const foodArr = [
 
 //CODE HERE
 
- const filteredFood = foodArr.filter(function (ele){
+ const filteredFood = foodArr.filter(function (ele) {
      return ele.tags === `gluten free`
  } )
 
