@@ -52,6 +52,7 @@
 
 //CODE HERE
 
+console.log(pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -62,6 +63,7 @@
 
 //CODE HERE
 
+console.log(pizza[`tags`][1])
 
 /*
     Third, destructure the price off of the
@@ -72,6 +74,8 @@
 
 //CODE HERE
 
+let {price} = pizza
+console.log({price})
 
 /*
     Fourth, and last, destructure the category
@@ -82,6 +86,8 @@
 
 //CODE HERE
 
+let {catagory} = pizza
+console.log({catagory})
 
 //////////////////PROBLEM 3////////////////////
 /* 
