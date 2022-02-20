@@ -103,7 +103,50 @@ console.log({catagory})
 
 //CODE HERE
 
+const foodArr = [
+    {name: 'Rhubarb Pie',
+    price: 16.99,
+    catagory: `dessert`,
+    popularity: 6,
+    rating: 10,
+    tags: [`sweet delight`, `tart`]
+    },
 
+    {name: 'French Fries',
+    price: 2.59,
+    catagory: `sides`,
+    popularity: 10,
+    rating: 5,
+    tags: [`gluten free`, `kids`]
+    },
+
+    {name: 'Turkey Leg',
+    price: 8.99,
+    catagory: `entree`,
+    popularity: 4,
+    rating: 7,
+    tags: [`keto`, `gluten free`]
+    },
+
+    {name: 'Classic Coke',
+    price: 1.99,
+    catagory: `beverage`,
+    popularity: 10,
+    rating: 7,
+    tags: [`soda`, `sweet delight`]
+    },
+
+    {name: 'Boba tea',
+    price: 4.99,
+    catagory: `beverage`,
+    popularity: 9,
+    rating: 6,
+    tags: [`sweet delight`, `ethnic`]
+    },
+
+]
+
+console.log(foodArr)
 
 //////////////////PROBLEM 4////////////////////
 /* 
