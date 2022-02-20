@@ -31,8 +31,16 @@
 */
 
 //CODE HERE
+ let pizza = {
+     name: 'Maui Zaui',
+     price: 25.99,
+     catagory: `entree`,
+     popularity: 7,
+     rating: 4.5,
+     tags: [`spicy`, `family`]
+ }
 
-
+ //console.log(pizza)
 
 //////////////////PROBLEM 2////////////////////
 /* 
