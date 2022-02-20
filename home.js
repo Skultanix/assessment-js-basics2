@@ -124,7 +124,8 @@ const deals = [
 */
 
 //CODE HERE
-deals.replace('15% Off!','10% Off!')
+deals[0].title = deals[0].title.replace(15,10)
+console.log(deals[0](`title`))
 
 
 /*
